@@ -4,10 +4,11 @@
 <head>
     <meta charset="utf-8">
     <title>Survey Form FCC</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <form action="form.py" id="survey-form">
-        <h1 id="title">Complete this Survey!</h1>
+    <form action="form.py" id="survey-form" method="POST">
+        <h1 id="title">Job App survey</h1>
         <p id="description">ima steal your data! <strong>:D</strong></p>
 
         <div>
@@ -79,6 +80,9 @@
             <p>comment on whatever you like:</p>
             <textarea name="" id="" cols="30" rows="10">write additional info</textarea>
         </div>
+        <button type="submit" id="submit">
+            click to submit
+        </button>
     </form>
     <footer>
         <p>TODO: add proper css</p>
