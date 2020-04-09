@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p>This is my page</p>
+
+    <form action="/form-page" method="POST">
+        <ul>
+            <li>
+                <label for="name">Name label:</label>
+                <input type="text" id="name" name="user_name" value="default value">
+            </li>
+            <li>
+                <label for="msg">Message label:</label>
+                <textarea id="msg" name="user_message"></textarea>
+            </li>
+            <li class="button">
+                <label for="button">msg label for button</label>
+                <button type="submit">send msg button</button>
+            </li>
+        </ul>
+    </form>
+    <button type="submit">
+        This is a <strong>submit button</strong>
+    </button>
+    
+    <input type="submit" value="This is a submit button">
+
+
+  </body>
+</html>
